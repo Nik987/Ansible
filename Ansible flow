@@ -1,0 +1,13 @@
+create the multiple EC2 instance (one is the Masterand installing ansible on it  and remaining one is the target server)
+install the ansible on matser and then create the target servers
+passwordless authenticate the target server and ansible server (there are multiple way to authenticate it like SSH , Through the key)
+Ansible adhoc command ---- it is used for one or two command 
+Ansible playbook --- its is used for the multiple task/command
+
+look on some basic Ansible ADhoc command
+
+Inventary file : server name and details are configured in this file. we can grouping our servers and used it as target server
+
+Ansible Roles : it is efficent way of the writing the playbook it reduce complexity of the task if there is multiple task and we want to write the playbook then we can use the roles
+
+Ansile-Galexy 
