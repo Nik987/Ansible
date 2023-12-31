@@ -1,6 +1,6 @@
 # Ansible
 
-ansible-demo
+
 Ansible Demo
 
 truncate -s 0 access.log ansible --version ansible all -m ping
